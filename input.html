@@ -22,22 +22,33 @@
         <input type="submit" name="searchbutton" id="" value=" go ">
     </div>
     <div id="inputform">
-        <p>Language: <select name="lang" id="lang_select">
-                <option value="none">----</option>
-                <option value="Java">Java</option>
-                <option value="Python">Python</option>
-                <option value="HTML">HTML</option>
-                <option value="CSS">CSS</option>
-                <option value="PHP">PHP</option>
-                <option value="JavaScript">JavaScript</option>
-            </select></p>
-        <p>Snippet Name <input type="text" name="" id="" placeholder="name your code"></p>
-        <p>Tags <input type="text" name="" id=""></p>
-        <p>Description:<textarea name="" id="" cols="30" rows="2" placeholder="what does the code do?"></textarea></p>
-        <p>Code:<textarea name="" id="" cols="30" rows="10" placeholder="input code here"></textarea></p>
-        <p><input type="submit" name="inputbutton" value="Upload"></p>
+        <form action="db_conn.php" method="GET" id="input">
+            <p><label for="lang">Language </label>
+                <select name="lang" id="lang_select">
+                    <option value="none">----</option>
+                    <option value="Java">Java</option>
+                    <option value="Python">Python</option>
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">CSS</option>
+                    <option value="PHP">PHP</option>
+                    <option value="JavaScript">JavaScript</option>
+                </select>
+            </p>
+            <p><label for="name"> Snippet Name </label><input type="text" name="name" id="name"
+                    placeholder="name your code">
+            </p>
+            <p><label for="tags"> Tags </label><input type="text" name="tags" id="tags">
+            </p>
+            <p><label for="Description"> Description </label><textarea name="Description" id="descr" cols="30" rows="2"
+                    placeholder="what does the code do?"></textarea>
+            </p>
+            <p><label for="code"> Code </label><textarea name="code" id="code" cols="30" rows="10"
+                    placeholder="input code here"></textarea>
+            </p>
+            <p><input type="submit" name="inputbutton" value="Upload">
+            </p>
 
-
+        </form>
     </div>
 
 </body>
