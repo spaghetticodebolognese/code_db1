@@ -1,0 +1,77 @@
+p {
+    color: rgb(46, 228, 1);
+}
+
+a {
+    color: rgb(46, 228, 1);
+}
+
+body {
+    background-color: rgb(55, 2, 104);
+    margin: 0px;
+}
+
+#searchbutton {
+    width: 70px;
+}
+
+input {
+    background-color: rgb(46, 228, 1);
+}
+
+select {
+    background-color: rgb(46, 228, 1);
+}
+
+textarea {
+    background-color: rgb(46, 228, 1);
+}
+
+
+/* 0, 230, 230); */
+table {
+    border: solid;
+    border-color: rgb(46, 228, 1);
+    text-align: center;
+}
+
+th {
+    border: solid 1px;
+    border-bottom: solid 4px;
+    border-color: rgb(46, 228, 1);
+
+    width: 10%;
+    font-size: large;
+
+}
+
+td {
+    border: solid 1px;
+    border-color: rgb(46, 228, 1);
+}
+
+#header {
+    border: solid;
+    padding-left: 100px;
+
+    background-color: rgb(82, 6, 153);
+
+}
+
+#navi {
+    border: solid 2px;
+    background-color: rgb(82, 6, 153);
+    width: 100px;
+    height: 90vh;
+    float: left;
+    text-align: center;
+}
+
+#inputform {
+
+    border-color: rgb(46, 228, 1);
+    width: 50%;
+    padding-left: 130px;
+    padding-top: 10px;
+    text-align: center;
+}
